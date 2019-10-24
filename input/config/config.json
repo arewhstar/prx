@@ -1,0 +1,25 @@
+{
+"listeners":	{  	
+		"name":"li_1",
+  		"address":"127.0.0.1",
+  		"port":80,
+  		"filter_chains":0,
+  		"per_connection_buffer_limit_bytes":1,
+  		"metadata":2,
+  		"listener_filters":3,
+  		"socket_options":4
+		},
+
+"clusters":	{  
+		"name":"cluster1",
+  		"connect_timeout":10,
+  		"per_connection_buffer_limit_bytes":0,
+  		"lb_policy":"RR",
+  		"hosts":0,
+  		"health_checks":0,
+  		"circuit_breakers":0,
+  		"socket_options":0,
+  		"metadata":0,
+  		"filters":0,
+  		"params":0}
+}
